@@ -70,7 +70,7 @@ class When extends Composite
         return ['expression', 'constraints'];
     }
 
-    public function getTargets(): string|array
+    public function getTargets(): array
     {
         return [self::CLASS_CONSTRAINT, self::PROPERTY_CONSTRAINT];
     }

@@ -51,7 +51,7 @@ class Callback extends Constraint
         return 'callback';
     }
 
-    public function getTargets(): string|array
+    public function getTargets(): array
     {
         return [self::CLASS_CONSTRAINT, self::PROPERTY_CONSTRAINT];
     }

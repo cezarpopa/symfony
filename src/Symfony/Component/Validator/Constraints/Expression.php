@@ -81,7 +81,7 @@ class Expression extends Constraint
         return ['expression'];
     }
 
-    public function getTargets(): string|array
+    public function getTargets(): array
     {
         return [self::CLASS_CONSTRAINT, self::PROPERTY_CONSTRAINT];
     }
