@@ -401,7 +401,7 @@ class ClassCompositeConstraint extends Composite
         return 'nested';
     }
 
-    public function getTargets(): string|array
+    public function getTargets(): array
     {
         return [self::CLASS_CONSTRAINT];
     }
